@@ -111,6 +111,21 @@ a.secondary {
   border-color: var(--button-secondary-border);
 }
 
+.startButton {
+  background-color: #3a7361;
+  color: #0b1b2d;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.startButton:hover {
+  background-color: #285c4d;
+  transition: 0.2;
+}
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   a.primary:hover {

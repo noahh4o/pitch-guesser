@@ -13,6 +13,10 @@ export default function Home() {
           <p>
             Predict the next pitch. Test your baseball knowledge.
           </p>
+
+          <button className={styles.startButton}>
+            Get Started
+          </button>
         </div>
       </main>
     </div>
